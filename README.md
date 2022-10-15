@@ -1,5 +1,6 @@
 # NHL-Analysis-Project
 ##Goal of project
+
 The goal of this project was to look at how players from different countries tend to play differently in the National Hockey League. Data was extracted for the 2022 season using the undocumented NHL API and transferred to a csv using Python. Data was then visualized using Tableau to draw insights as to how play style differs between nationalities.
 ## Using the NHL API to extract data
 Data was pulled from the API using two separate calls, one for player bio information and one for 2022 stats. The JSON outputs were converted into two pandas dataframes and then joined on player ID. 
